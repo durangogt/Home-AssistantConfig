@@ -1,0 +1,160 @@
+light.bedroom_light_2:
+  config_entry_id: 766b12a13fcb479d8cf88c733a19311d
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:00:f6:1a:cf-0b
+light.backyard:
+  config_entry_id: 766b12a13fcb479d8cf88c733a19311d
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:0a:62:33-0b
+light.bedroom_light_1:
+  config_entry_id: 766b12a13fcb479d8cf88c733a19311d
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:00:ec:07:ea-0b
+light.bedroom_light_3:
+  config_entry_id: 766b12a13fcb479d8cf88c733a19311d
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:77:de:54-0b
+light.jims_lamp:
+  config_entry_id: 766b12a13fcb479d8cf88c733a19311d
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:00:ec:07:f3-0b
+light.jocelyns_lamp:
+  config_entry_id: 766b12a13fcb479d8cf88c733a19311d
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:00:ec:08:5a-0b
+climate.living_room:
+  config_entry_id: 367c3be7700d49878d19f92e73e2b6e3
+  name:
+  platform: nest
+  unique_id: BrTDEyRusDUCgACbdX-mq2N6V-ud2_ZE
+switch.486fa7:
+  config_entry_id:
+  name: West Atrium Light
+  platform: insteon_local
+  unique_id: 486FA7
+switch.487ccf:
+  config_entry_id:
+  name: East Atrium Light
+  platform: insteon_local
+  unique_id: 487CCF
+binary_sensor.rain_delay_restrictions:
+  config_entry_id:
+  name:
+  platform: rainmachine
+  unique_id: ec086b1be520_raindelay
+binary_sensor.freeze_restrictions:
+  config_entry_id:
+  name:
+  platform: rainmachine
+  unique_id: ec086b1be520_freeze
+binary_sensor.rain_sensor_restrictions:
+  config_entry_id:
+  name:
+  platform: rainmachine
+  unique_id: ec086b1be520_rainsensor
+binary_sensor.freeze_protection:
+  config_entry_id:
+  name:
+  platform: rainmachine
+  unique_id: ec086b1be520_freeze_protection
+binary_sensor.weekday_restrictions:
+  config_entry_id:
+  name:
+  platform: rainmachine
+  unique_id: ec086b1be520_weekday
+binary_sensor.extra_water_on_hot_days:
+  config_entry_id:
+  name:
+  platform: rainmachine
+  unique_id: ec086b1be520_extra_water_on_hot_days
+binary_sensor.hourly_restrictions:
+  config_entry_id:
+  name:
+  platform: rainmachine
+  unique_id: ec086b1be520_hourly
+binary_sensor.month_restrictions:
+  config_entry_id:
+  name:
+  platform: rainmachine
+  unique_id: ec086b1be520_month
+sensor.freeze_protect_temperature:
+  config_entry_id:
+  name:
+  platform: rainmachine
+  unique_id: ec086b1be520_freeze_protect_temp
+switch.front_bedseast_back_side_yard:
+  config_entry_id:
+  name:
+  platform: rainmachine
+  unique_id: ec086b1be520_zone_4
+switch.wed_n_sat:
+  config_entry_id:
+  name:
+  platform: rainmachine
+  unique_id: ec086b1be520_program_1
+switch.pool_garden:
+  config_entry_id:
+  name:
+  platform: rainmachine
+  unique_id: ec086b1be520_program_2
+switch.zone_10:
+  config_entry_id:
+  name:
+  platform: rainmachine
+  unique_id: ec086b1be520_zone_10
+switch.zone_9:
+  config_entry_id:
+  name:
+  platform: rainmachine
+  unique_id: ec086b1be520_zone_9
+switch.west_side_yard:
+  config_entry_id:
+  name:
+  platform: rainmachine
+  unique_id: ec086b1be520_zone_1
+switch.zone_6:
+  config_entry_id:
+  name:
+  platform: rainmachine
+  unique_id: ec086b1be520_zone_6
+switch.zone_7:
+  config_entry_id:
+  name:
+  platform: rainmachine
+  unique_id: ec086b1be520_zone_7
+switch.west_front_yard:
+  config_entry_id:
+  name:
+  platform: rainmachine
+  unique_id: ec086b1be520_zone_2
+switch.zone_11:
+  config_entry_id:
+  name:
+  platform: rainmachine
+  unique_id: ec086b1be520_zone_11
+switch.zone_8:
+  config_entry_id:
+  name:
+  platform: rainmachine
+  unique_id: ec086b1be520_zone_8
+switch.east_front_yard:
+  config_entry_id:
+  name:
+  platform: rainmachine
+  unique_id: ec086b1be520_zone_3
+switch.zone_12:
+  config_entry_id:
+  name:
+  platform: rainmachine
+  unique_id: ec086b1be520_zone_12
+switch.around_pool:
+  config_entry_id:
+  name:
+  platform: rainmachine
+  unique_id: ec086b1be520_zone_5
