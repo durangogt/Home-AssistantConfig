@@ -1,6 +1,9 @@
 *
 !*.yaml
+!/*.yaml
 !scenes
 !.gitignore
+!/appdaemon/dashboards/*.dash
+!/appdaemon
 secrets.yaml
 known_devices.yaml

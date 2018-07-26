@@ -1,0 +1,118 @@
+#
+# Main arguments, all optional
+#
+title: First Dashboard
+widget_dimensions: [120, 120]
+widget_margins: [5, 5]
+columns: 8
+
+label:
+    widget_type: label
+    text: House Devices
+    
+clock:
+    widget_type: clock
+
+weather:
+    widget_type: sensor
+    title: Weather
+    entity: sensor.yr_symbol
+ac_temp:
+    widget_type: sensor
+    title: Current House Temperature
+    units: "&deg;F"
+    precision: 0
+    entity: sensor.living_room_thermostat_temperature
+
+ac_temp_set:
+    widget_type: sensor
+    title: AC Set at
+    units: "&deg;F"
+    precision: 0
+    entity: sensor.living_room_thermostat_target
+    
+bedroom_lamps:
+    widget_type: light
+    title: Bedroom Lamps
+    entity: light.bedroom_lamps
+
+bedroom_lights:
+    widget_type: light
+    title: Bedroom Fan Lights
+    entity: light.bedroom_lights
+    
+soundmachine_switch:
+    widget_type: switch
+    title: Hallway Sound Machine
+    entity: switch.hallway_sound_machine
+    
+nursery_switch:
+    widget_type: switch
+    title: Nursery Lamp
+    entity: switch.nursery_lamp
+
+east_atrium_switch:
+    widget_type: switch
+    title: East Atrium Light
+    entity: switch.487ccf
+
+west_atrium_switch:
+    widget_type: switch
+    title: West Atrium Light
+    entity: switch.486fa7
+
+office_lights:
+    widget_type: light
+    title: Office Fan Light
+    entity: light.office_light
+
+sprinkler_program1:
+    widget_type: switch
+    title: Wed & Sat Sprinkler Program
+    entity: switch.wed_n_sat
+
+sprinkler_program2:
+    widget_type: switch
+    title: Garden Sprinkler Program
+    entity: switch.pool_garden
+    
+sprinkler_zone1:
+    widget_type: switch
+    title: West Side Yard Sprinklers
+    entity: switch.west_side_yard
+
+sprinkler_zone2:
+    widget_type: switch
+    title: West Front Yard Sprinklers
+    entity: switch.west_front_yard
+
+sprinkler_zone3:
+    widget_type: switch
+    title: East Front Yard Sprinklers
+    entity: switch.east_front_yard
+
+sprinkler_zone4:
+    widget_type: switch
+    title: Front Beds & East Side Yard Sprinklers
+    entity: switch.front_bedseast_back_side_yard
+
+sprinkler_zone5:
+    widget_type: switch
+    title: Sprinklers around pool
+    entity: switch.around_pool
+
+garage_door:
+    widget_type: cover
+    title: Garage Door
+    entity: cover.garage_door_opener
+    icon_on: fa-car
+    icon_off: fa-car
+
+layout:
+    - clock(2x1),ac_temp(2x1),ac_temp_set(2x1),garage_door(2x1)
+    - bedroom_lamps(2x1),soundmachine_switch(2x1),nursery_switch(2x1),bedroom_lights(2x1)
+    - east_atrium_switch(2x1),west_atrium_switch(2x1),office_lights(2x1),weather(2x1)
+    - sprinkler_program1(2x1),sprinkler_program2(2x1)
+    - sprinkler_zone1(2x1),sprinkler_zone2(2x1),sprinkler_zone3(2x1)
+    - sprinkler_zone4(2x1),sprinkler_zone5(2x1)
+    
