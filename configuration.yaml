@@ -2,10 +2,10 @@ homeassistant:
   # Name of the location where Home Assistant is running
   name: Home
   # Location required to calculate the time the sun rises and sets
-  latitude: 0
-  longitude: 0
+  latitude: 32.985832
+  longitude: -96.785329
   # Impacts weather/sunrise data (altitude above sea level in meters)
-  elevation: 0
+  elevation: 196
   # metric for Metric, imperial for Imperial
   unit_system: imperial
   # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -24,9 +24,11 @@ config:
 
 http:
   # Secrets are defined in the file secrets.yaml
-  # api_password: !secret http_password
+  api_password: !secret http_password
   # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
-  # base_url: example.duckdns.org:8123
+  base_url: https://ickespad.duckdns.org:8123
+  ssl_certificate: /ssl/fullchain.pem
+  ssl_key: /ssl/privkey.pem
 
 # Checks for available updates
 # Note: This component will send some information about your system to
@@ -51,6 +53,11 @@ logbook:
 
 # Enables a map showing the location of tracked devices
 map:
+
+# zone:
+#   name: Work
+#   latitude: 32.971629
+#   longitude: -96.822634
 
 # Track the sun
 sun:
@@ -103,7 +110,7 @@ light 3:
     host: 192.168.1.71
     name: Living Room Lamp 2
 
-# Rainmachine integration
+# Rainmachine integration test change
 rainmachine:
   ip_address: 192.168.1.86
   password: !secret rainmachine_token
