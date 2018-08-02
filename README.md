@@ -22,3 +22,4 @@
  * 2 rpi(s) cpu/mem stats
  * home isp status
  * ios app push notifications
+ * add screenshots to readme
