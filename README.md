@@ -23,3 +23,7 @@
  * home isp status
  * ios app push notifications
  * add screenshots to readme
+ 
+ 
+ ### Good cheatsheet link
+ [Cheatsheet](https://github.com/arsaboo/homeassistant-config/blob/master/HASS%20Cheatsheet.md)
